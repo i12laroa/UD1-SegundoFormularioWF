@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UD1_EjemploEnlaceDatos;
 
 namespace UD1_SegundoFormularioWF
 {
@@ -52,7 +53,7 @@ namespace UD1_SegundoFormularioWF
             {
                 if (family == null || family.IsDisposed)
                 {
-                    family = new Form();
+                    family = new UD1_EjemploEnlaceDatos.Form1();
                     family.Show();
                 }
                 else

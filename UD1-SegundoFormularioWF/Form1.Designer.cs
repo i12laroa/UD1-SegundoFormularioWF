@@ -30,9 +30,9 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rbFamilia = new System.Windows.Forms.RadioButton();
             this.rbProfes = new System.Windows.Forms.RadioButton();
             this.rbAlumnos = new System.Windows.Forms.RadioButton();
-            this.rbFamilia = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -61,6 +61,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nuevos Forms";
             // 
+            // rbFamilia
+            // 
+            this.rbFamilia.AutoSize = true;
+            this.rbFamilia.Location = new System.Drawing.Point(19, 117);
+            this.rbFamilia.Name = "rbFamilia";
+            this.rbFamilia.Size = new System.Drawing.Size(72, 20);
+            this.rbFamilia.TabIndex = 2;
+            this.rbFamilia.TabStop = true;
+            this.rbFamilia.Text = "Familia";
+            this.rbFamilia.UseVisualStyleBackColor = true;
+            // 
             // rbProfes
             // 
             this.rbProfes.AutoSize = true;
@@ -83,17 +94,6 @@
             this.rbAlumnos.TabStop = true;
             this.rbAlumnos.Text = "Alumnos";
             this.rbAlumnos.UseVisualStyleBackColor = true;
-            // 
-            // rbFamilia
-            // 
-            this.rbFamilia.AutoSize = true;
-            this.rbFamilia.Location = new System.Drawing.Point(19, 117);
-            this.rbFamilia.Name = "rbFamilia";
-            this.rbFamilia.Size = new System.Drawing.Size(72, 20);
-            this.rbFamilia.TabIndex = 2;
-            this.rbFamilia.TabStop = true;
-            this.rbFamilia.Text = "Familia";
-            this.rbFamilia.UseVisualStyleBackColor = true;
             // 
             // button1
             // 

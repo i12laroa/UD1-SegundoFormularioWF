@@ -98,6 +98,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\UD1-EjemploEnlaceDatos\UD1-EjemploEnlaceDatos\UD1-EjemploEnlaceDatos.csproj">
+      <Project>{d1074156-fdb2-4f21-9ce1-0517a77c53bd}</Project>
+      <Name>UD1-EjemploEnlaceDatos</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
